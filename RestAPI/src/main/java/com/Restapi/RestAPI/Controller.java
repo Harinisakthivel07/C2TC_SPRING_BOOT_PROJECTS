@@ -1,0 +1,15 @@
+package com.Restapi.RestAPI;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class Controller 
+{
+	@RequestMapping("/hello")
+	public String Welcome()
+	{
+		return "Welcome to the restful API in Spring.....";
+	}
+
+}
